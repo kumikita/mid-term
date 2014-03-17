@@ -1,0 +1,230 @@
+*{ 
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -icab-box-sizing: border-box;
+  -khtml-box-sizing: border-box;
+  box-sizing: border-box;  }
+
+img,video,iframe{width: auto; max-width: 100%; height: auto; margin: 0 auto 1em;}
+
+body{
+  font-size:100%;
+  line-height:1.5;
+  font-family:sans-serif;
+  background-color: #000000;
+}
+
+p { margin-bottom: 1em;
+      }
+
+footer{
+  clear:both;
+  border-top: 3px solid #000000;
+  background-color: #000000;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+    font-size: 2.125em;
+    line-height: 1.5em;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+    font-family: 'Montserrat Subrayada', sans-serif;
+  }
+
+.footer{ color: #ffffff;
+         margin-top: 0.625em;
+         margin-bottom: 0.5em;
+         text-align: center;   }
+
+.container{
+  width:100%;
+  max-width: 75em; /* 1200 / 16 */
+  margin:0 auto;
+  background-color: #ffffff;
+  }
+
+.title{ background-color: #ffffff;
+        padding-bottom: 3%;
+        }
+
+.bmcc{ color: #000000;
+       font-size: 1.5em;
+       line-height: 1.5em;
+       font-weight: bold;
+       text-align: center; }
+
+.address1{ color: #000000;
+         font-size: 1em;
+         line-height: 0.5em;
+         text-align: center;
+         }    
+
+.address2{ color: #000000;
+         font-size: 1em;
+         line-height: 0.5em;
+         text-align: center;
+         padding-bottom: 3%; }    
+
+
+
+
+
+
+  .green{ color: #4DBD33;
+     }
+
+.intro {background-color: #5E5E5E;
+          color: #ffffff;
+          padding: 5% 5% 5% 5%;
+          margin-top: 0.125em;
+          margin-bottom: 0.125em;
+          font-size: 1.3em;
+          line-height: 1em;
+          padding-bottom: 3%;
+          font-family: Century, Georgia, Times;
+}
+ 
+  
+
+h3.date{font-size: 1.5em;
+        line-height: 1.5em;
+        padding-bottom: 1%;
+        font-weight: bold;
+        color: #7CCD7C;
+        text-align: center;
+        font-family: Century, Georgia, Times;}
+
+
+
+
+
+  /* ============================
+* NAVIGATION 
+* Modified from: http://webdesign.tutsplus.com/tutorials/htmlcss-tutorials/a-simple-responsive-mobile-first-navigation/
+* =============================*/  
+  
+#main_nav{
+  clear:both;
+}  
+
+#main_nav ul{
+  list-style: none;
+}
+
+#main_nav li a{
+  display:block;
+  color:#fff;
+  background-color: #000000;
+  text-transform: uppercase;
+  padding: 0.625em; /* 10/16 */
+  text-decoration:none;
+  border-bottom: 1px solid #eee;
+  font-weight:900;
+}
+
+#main_nav li a:hover{
+  color: #000000;
+  background-color: #fff;
+}
+  
+#main_nav li a:active{
+  color: #000000;;
+  background-color: #f90;
+}  
+
+/* menu button */
+.menu a{
+  padding:0.5em 0.625em; /*10/16 */
+  background-color: #000000;
+  border-radius:5px;
+  color: #fff;
+  text-decoration:none;
+}
+
+.menu a:hover{
+  color:#555;
+  background-color: #f90;
+}
+ 
+.menu{
+  margin-bottom:1em;
+}
+
+/* ==========================
+*  Media Queries for Main Nav
+*  ========================== */
+/* these don't have to be separate. We did so for two reasons:
+1. Easy to copy and paste this into new design
+2. Depending on your site you may need separate break points for the nav. You may want to see what width is needed to fit your nav horizontally without breaking and use that as the breakpoint. 
+
+It should also be noted that there is only one media query because this CSS moves the nav to the top where it can stay for all of the other sizes.
+*/
+
+/* 656 / 16 */
+@media only screen and (min-width:42.75em) {
+  /* hide the menu button */
+  .menu{
+    display:none;
+  }
+  
+/* move main_nav to top of the screen */
+  #main_nav{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+   overflow:hidden;
+    background-color: #000000;;
+  }
+  
+  #main_nav li{
+    display:inline;
+    line-height:1em;
+  }
+  #main_nav li a{
+    float:left;
+    padding: 0.5em; /* 10/16  and  15/16 */
+    border-bottom: none;
+  }
+  
+/* hide the link to top in the nav */
+  #main_nav li a.top{
+    display: none;
+  }
+  
+ /* move the rest of the page down accordingly */
+  .container{
+   margin-top: 3.75em;  /*60 / 16 */ 
+  }
+    
+ /* end min-width:30.0625em */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

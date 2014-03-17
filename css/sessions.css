@@ -1,0 +1,57 @@
+h2{ font-size: 2em;
+	line-height: 1.2em;
+	text-align: center; 
+}
+
+h3{ font-size: 1.5em;
+	line-height: 1.4em;
+	text-align: center; 
+}
+
+p{ color: #ffffff;}
+
+.track{ width: 100%; /* 600/800 */
+		padding: 5% 5% 5% 5%;
+		border:10px solid #555;	clear:both;
+}
+
+#cw{ background-color: #000000;
+     color: #03A89E; 
+}
+
+#fa{ background-color: #000000;
+	 color: #FFA500;
+}
+
+#pa{ background-color: #000000;
+	 color: #00CD66; 
+}
+
+#ma{ background-color: #000000;
+	 color: #DC143C;
+}
+
+.session1{ color: #BFEFFF;
+}
+
+.session2{ color: #FFF68F;
+}
+
+.session3{ color: #C1FFC1;
+}
+
+.session4{ color: #FFC1C1;
+}
+
+p.presenter {
+  font-style: italic;
+  font-size: 1.25em;
+  line-height: 1.25em;
+  font-family: Century, Georgia, Times;
+  padding-bottom: 5%;
+}
+
+
+
+
+

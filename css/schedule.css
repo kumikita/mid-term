@@ -1,0 +1,100 @@
+
+h1{ color: #ffffff;}
+
+h2{ font-size: 1.5em;
+    line-height: 1.25em;
+    padding: 5% 5% 5% 5%;
+    text-align: center; 
+}
+
+h3{ font-size: 1.25em;
+  line-height: 1em;
+  text-align: center; 
+  color: #ffffff;
+}
+
+.time{ color: #ffffff;}
+
+.room{ color: #ffffff;
+       font-size: 1.25em;
+       line-height: 1em;
+       font-family: Century, Georgia, Times;
+       padding-top: 1%; 
+       padding-bottom: 5%;
+}
+
+.oc{ color: #FFFF00;}
+
+
+.opening,.lunch,.closing{ background-color: #8B8989;
+                        width: 100%; /* 600/800 */
+                        padding: 5% 5% 5% 5%;
+                        border:10px solid #555; clear:both;
+}
+
+.session1{ background-color: #000000;
+          width: 100%; /* 600/800 */
+          padding: 5% 5% 5% 5%;
+          border:10px solid #555; clear:both;
+}
+
+.session2{ background-color: #000000;
+          width: 100%; /* 600/800 */
+          padding: 5% 5% 5% 5%;
+          border:10px solid #555; clear:both;
+}
+.session3{ background-color: #000000;
+          width: 100%; /* 600/800 */
+          padding: 5% 5% 5% 5%;
+          border:10px solid #555; clear:both;
+}
+.session4{ background-color: #000000;
+          width: 100%; /* 600/800 */
+          padding: 5% 5% 5% 5%;
+          border:10px solid #555; clear:both;
+}
+
+
+
+.cw{ color: #03A89E; 
+     font-family: 'Montserrat Subrayada', sans-serif; 
+     padding-top: 2%; 
+     padding-bottom: 5%;
+     font-size: 1.75em;
+    line-height: 1.25em;
+}
+
+.fa{ color: #FFA500;
+     font-family: 'Montserrat Subrayada', sans-serif; 
+     padding-top: 2%; 
+     padding-bottom: 5%;
+     font-size: 1.75em;
+    line-height: 1.25em;
+}
+.pa{ color: #00CD66; 
+     font-family: 'Montserrat Subrayada', sans-serif;
+     padding-top: 2%; 
+     padding-bottom: 5%;
+     font-size: 1.75em;
+    line-height: 1.25em; 
+}
+
+.ma{ color: #DC143C;
+     font-family: 'Montserrat Subrayada', sans-serif;
+     padding-top: 2%; 
+     padding-bottom: 5%;
+     font-size: 1.75em;
+    line-height: 1.25em;
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,87 @@
+h2{    font-size: 2em;
+	   line-height: 1.5em;
+	   text-align: center; 
+	   font-family: 'Montserrat Subrayada', sans-serif;
+	   padding-bottom: 5%;
+	   padding-top: 2%;
+	   color: #DC143C;
+}
+
+
+
+section.about{ width: 100%; /* 600/800 */
+				padding: 5% 5% 5% 5%;
+				border:10px solid #555;	clear:both;
+}
+
+.dt{ width: 100%; /* 600/800 */
+	 padding: 5% 5% 5% 5%;
+	
+     background-color: #000000;
+ }
+
+h2.datetime{   font-size: 2em;
+			   line-height: 1.2em;
+			   text-align: center; 
+			   font-family: 'Montserrat Subrayada', sans-serif;
+			   color: #ffffff;
+ }
+
+.time{ font-size: 1.5em;
+	   line-height: 1.2em;
+	   text-align: center; 
+	   color: #ffffff;
+}
+
+section.location{ width: 100%; /* 600/800 */
+				padding: 5% 5% 5% 5%;
+				border:10px solid #555;	clear:both;
+}
+
+h2.info{ font-size: 2em;
+	   line-height: 1.2em;
+	   text-align: center; 
+	   font-family: 'Montserrat Subrayada', sans-serif;
+	   padding-bottom: 5%;
+	   padding-top: 2%;
+}
+
+.bmcclocation{  width: 100%; /* 600/800 */
+				padding: 5% 5% 5% 5%;
+}
+
+section.directions{ width: 100%; /* 600/800 */
+				padding: 5% 5% 5% 5%;
+				border:10px solid #555;	clear:both;
+}
+
+
+.transportation{ font-size: 1.5em;
+				line-height: 1.4em;
+				text-align: center;
+				font-family: 'Montserrat Subrayada', sans-serif; 
+                padding-bottom: 5%;
+ }
+
+.sub,.worldtrade,.christopher,.eastside,.westside{ font-size: 1.25em;
+											  line-height: 1em;
+                                              font-family: Century, Georgia, Times;
+}
+
+.subway,.bus,.path,.car{  width: 100%; /* 600/800 */
+				padding: 5% 5% 5% 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
